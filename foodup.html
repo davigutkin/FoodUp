@@ -6,16 +6,38 @@
         <link rel="stylesheet" href="foodup.css"/>
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
 
-        <title>Foodup</title> 
+        <title>Foodup</title id="title1"> 
 
     </head>
 
     <body>
-        <h1 id="BigText">
-            Welcome to FoodUp
-        </h1>
+        <div>
+            <h1 id="BigText">
+                Welcome to FoodUp
+            </h1>
+        </div>
+       <!--
+           Code below adds form for city id  
+       -->
+        <form action="/foodup-handling-page" method="POST">
+            <div>
+                <h2> Enter City ID</h2>
+            </div>
+            <div>
+                <label for="city_id">City Id</label>
+                <input type="text" name="city_id" >
+            </div>
+            <div>
+                <button type="sumbit"> Submit</button>
+            </div>
+
+            
+        </form>
+        
         <div id="root"></div>    
-        <script src="scripts.js"></script>
+        
+        <?php include('serverside.php')?>
+        
     </body>
 
 

@@ -1,3 +1,8 @@
-h1 {
-    asdf
+form {
+
+    margin : 0 auto;
+    width: 400px;
+    padding: 1;
+    border: 1px solid #ccc
+    
 }
