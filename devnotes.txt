@@ -1,0 +1,20 @@
+notes
+useful video : https://www.youtube.com/watch?v=mgAtiR-1is4
+
+
+1. api key: d150c843411d21a3a23e0ea967319814
+
+
+stuff to do
+    - figure out the api key and how to access it
+    - add ability to read city names
+
+
+
+
+
+-links
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data
+https://stackoverflow.com/questions/698001/whats-the-for-for-in-a-label-tag
+https://stackoverflow.com/questions/698001/whats-the-for-for-in-a-label-tag

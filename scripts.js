@@ -1,6 +1,6 @@
 //create new request variable
 var request = new XMLHttpRequest();
-var city_id = 1
+var city_id_js = city_id;
 //Open new connection
 
 request.open('GET', 'https://developers.zomato.com/api/v2.1/cuisines?city_id='+city_id);
